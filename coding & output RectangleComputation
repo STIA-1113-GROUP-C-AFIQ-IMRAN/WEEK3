@@ -1,0 +1,30 @@
+Coding:
+package excercise1;
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double length, width, area, perimeter;
+		
+		length = 8.67;
+		width = 4.78;
+		
+		
+		perimeter = (length*2) + (width*2);
+		area = length * width;
+		
+		System.out.print("The perimeter is:");
+		System.out.println(perimeter);
+		
+		System.out.print("The area is:");
+		System.out.println(area);
+
+	}
+
+}
+
+
+Output:
+The perimeter is:26.9
+The area is:41.4426
